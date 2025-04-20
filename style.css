@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f8ff;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
+h1 {
+    color: #0077b6;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+button[type="button"] {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+}
+
+button[type="reset"] {
+    background-color: #d1d1d1;
+}
+
+#resultat {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#compteur {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0077b6;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    label {
+        font-size: 1rem;
+    }
+    
+    input[type="number"] {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    #resultat {
+        font-size: 1rem;
+    }
+}
